@@ -1,0 +1,22 @@
+# Compiled Python bytecode
+*.py[cod]
+**/__pycache__/
+**/migrations/**
+
+# files
+.env
+
+# Directories
+media/
+/venv/
+/env/
+
+# In dummy_files dir, I define the files that I don't wanna add into commit or saving some creds for local etc.
+# such as idea.txt, feature.txt, commands.py, which you can use in local for faster development and testing
+/dummy_files/ 
+
+# db
+instance/
+*db
+db*
+*.log
